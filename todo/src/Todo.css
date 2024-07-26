@@ -1,0 +1,143 @@
+.form-control {
+    display: block;
+    width: 30%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    margin:8px auto;
+}
+.action {
+    margin-right: 4px;
+    padding: 8px 20px;
+}
+.action {
+    margin-right: 4px;
+    padding: 8px 20px;
+}
+ 
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    background-color: #fff;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .list-group-item {
+    border: none;  
+    padding: 0;  
+  }
+  
+  .card-content {
+    margin-bottom: 1rem; 
+  }
+  
+  .card-title {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-description {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .form-group {
+    gap: 0.5rem;
+    margin-bottom: 1rem; 
+  }
+  
+  .actions {
+    display: flex;
+    margin-top: 120px;
+    gap: 0.5rem;
+  }
+  
+  .btn {
+    flex: 1;
+  }
+  
+      .col-md-4 {
+        width: 33.333333%;
+    }
+    input.form-control.div-input {
+        width: 69%;
+    }
+    .list-group-item {
+        border: none;
+        padding: 0;
+    }
+    
+    .list-group {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .col-md-4 {
+       flex-wrap: wrap;
+    }
+    textarea.form-control {
+        height: 107px;
+    }
+    textarea.form-control.div-input {
+        width:70%;
+    }
+
+    .card-content {
+        position: relative; /* Set up positioning context for child elements */
+    }
+    
+    .card-description {
+        position: relative;
+    }
+    
+    .updated-date {
+        position: absolute;
+        bottom: -104px;
+        left: 0;
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .col-md-4 {
+            width: 50%;
+        }
+        input.form-control.div-input {
+            width: 69%;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .col-md-4 {
+            width: 90%;
+        }
+    
+        .form-control {
+            width: 90%;
+        }
+    
+        .div-input {
+            width: 100%;
+        }
+    
+        .actions {
+            flex-direction: column;
+        }
+        input.form-control.div-input {
+            width: 69%;
+        }
+    }
+    
