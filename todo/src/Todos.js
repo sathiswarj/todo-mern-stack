@@ -11,7 +11,7 @@ const Todos = () => {
     const [message, setMessage] = useState("")
     const [error, setError] = useState("")
     const [editId, setEditId] = useState("-1")
-    const apiURL = "http://localhost:8000"
+    const apiURL = "https://todo-mern-3guh.onrender.com"
 
     const handleSubmit = () => {
         setError("")
